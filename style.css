@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+
+}
+
+ body {
+
+    font-family: 'DM Sans', serif;
+ }
+ p, h1{
+
+ }
+ .topo{
+    display: flex;
+    justify-content: space-between;
+
+    padding: 20px 50px 20px 50px 
+
+ } 
+.icon_menubar{
+    width: 50px;
+}
+ 
+ ul{
+   display: flex;
+   justify-content: center;
+ }
+
+ li{
+    list-style-type: none;
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ a{
+    text-decoration: none;
+    color: #231651
+ }
+
+ .botão-secundario{
+    background-color: #231651;
+    color:#ffff
+ }
+
+ img{ 
+    width: 300px;
+ }
+ .corpo{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+ }
+  .esquerda{
+     display: flex;
+     flex-direction: column ;
+  }
+  p {
+     font-size: 20px;
+     font-weight: 500;
+  }
+  h1{
+     font-size: 40px;
+     font-weight: :900;
+   
+  }
+
+  .botão-primario{
+     background-color: rgb(6, 31, 8);
+     color: rgb(183, 228, 206);
+     font-size: 28px;
+     border-radius: 8px;
+     text-align: center;
+     padding: 10px;
+
+  }
+  p,h1 {
+     padding-top: 16px;
+  }
