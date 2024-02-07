@@ -3,23 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinyl - Mais do que um fone: um sonho!</title>
+    <title>Fones MLAS</title>
     <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section class="topo">
-        <a href="index.html"><img src="images/favicon.svg" alt="">
-            <img src="imgs/logo.png" alt="">
-        </a>
-        <ul>
-            <a href="index.html"><li>Página inicial</li></a>
+        <a href="index.html"><img src="imgs/logo.png" alt="" /></a>
+        <nav class="menu-lateral">
+          <ion-icon
+                class="botao-menu-close"
+                name="close-outline"
+                onclick="toggleMenu()"></ion-icon>
+          <ul>
+              <a href="index.html"><li>Página inicial</li></a>
             <a href="#produtos"><li>Produtos</li></a>
             <a href="#beneficios"><li>Benefícios</li></a>
             <a href="#sobre-nos"><li>Sobre nós</li></a>
-            <a class="botao-primario" href="">Comprar agora!</a>
-        </ul>
-    </section>
+            <a class="botao-primario" href="">Comprar!</a>
+          </ul>
+        </nav>
+        <ion-icon
+          class="botao-menu"
+          name="menu-outline"
+          onclick="toggleMenu()"
+        ></ion-icon>
+      </section>
+  
 
     <section class="header">
         <section class="esquerda">
@@ -130,5 +140,6 @@
     </footer>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="Script.js"></script>
 </body>
 </html>
